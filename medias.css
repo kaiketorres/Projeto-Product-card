@@ -1,0 +1,44 @@
+@media screen and (min-width:768px) {
+
+    main{
+        height: 500px;
+    }
+    .foto1{
+    display: flex;
+    border-radius: 10px 0px 0px 10px;
+    width: 350px;
+    height: 500px;
+    }
+
+    .foto2{
+        display: none;
+    }
+
+    .p1{
+        padding-top: 50px;
+    }
+
+    .t1{
+        display: block;
+    }
+
+    .t2{
+        display: none;
+    }
+
+    button{
+        margin: 30px;
+    }
+
+    .p2{
+        display: block;
+        color: #737473;
+        font-family: 'osnova';
+    }
+    
+    .pp2{
+        color: #737473;
+        font-family: 'osnova';
+        display: none;
+    }
+}

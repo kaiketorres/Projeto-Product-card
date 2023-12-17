@@ -1,0 +1,117 @@
+@charset "UTF 8";
+
+
+@font-face {
+    font-family:'osnova';
+    src: url(/fonts/Osnova\ Pro.ttf);
+}
+
+@font-face {
+    font-family:'kenac';
+    src: url(/fonts/kenac-black.otf);
+}
+
+@font-face {
+    font-family:'isabel' ;
+    src: url(/fonts/isabel-semicondensed-regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.father1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-color: #F3EBE4;
+}
+
+main{
+    background-color: white;
+    width: 350px;
+    height: 650px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.foto1{
+    display: none;
+}
+
+.foto2{
+    border-radius: 10px 10px 0px 0px;
+    width: 350px;
+    height: 250px;
+}
+
+h1,h2,p{
+    padding: 10px 0px 10px 30px;
+}
+
+h1{
+    font-family: 'kenac' ;
+}
+
+.t1{
+    display: none;
+}
+
+.p1{
+    font-size: 15px;
+    color: #737473;
+    font-family: 'osnova';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.p2{
+    display: none;
+    color: #737473;
+    font-family: 'osnova';
+}
+
+.pp2{
+    color: #737473;
+    font-family: 'osnova';
+    display: block;
+}
+
+h2{
+    color: #407E69;
+    font-family: 'isabel';
+    font-size: 30px;
+}
+
+.p3{
+    font-family: 'osnova';
+    text-decoration: line-through;
+    color:#737473;
+}
+
+h2, .p3 {
+    display: inline-block;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    background-color: #3C816A;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
