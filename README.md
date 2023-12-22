@@ -2,10 +2,6 @@
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-# Frontend Mentor - QR code component
-
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
-
 <div align="center">
 <h1>Projeto Product card Frontend Mentor </h1>
 </div>
