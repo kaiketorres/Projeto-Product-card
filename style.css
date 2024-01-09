@@ -21,15 +21,16 @@
     padding: 0;
 }
 
+body{
+    background-color: #F3EBE4;
+    margin: 10px;
+}
+
 .father1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-
-body{
-    background-color: #F3EBE4;
+    min-height: 96vh;
 }
 
 main{
